@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/hHFz446/abacus-parts.jpg",
+    "title": "Abacus Parts",
+    "description": "Computer Parts Manufacturer Website whose sole purpose is to take orders from different clients.",
+    "features": [
+      "Implemented Admin feature in the Dashboard, where admin can perform various kinds of operation like add a new product, manage products, manage orders from clients and make other users admin.",
+      "Used firebase for authentication (both email and google sign-in were implemented) purposes and Stripe API for Payment System.",
+      "Used MongoDB for the Backend Database and Express JS for developing the Backend Server."
+    ],
+    "tags": [
+      "reactjs",
+      "tailwindcss",
+      "react-router-dom",
+      "firebase",
+      "daisyui",
+      "react-splide",
+      "stripe-api",
+      "react-query",
+      "react-firebase-hooks"
+    ],
+    "liveUrl": "https://abacus-parts.web.app/"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/LhFdWpF/skyline-enterprise.jpg",
+    "title": "Skyline Enterprise",
+    "description": "Warehouse Management Website for managing cars.",
+    "features": [
+      "Logged in users can add new cars and manage car inventories.",
+      "Most popular cars shown in the Banner and Brand wise cars shown in the Brand section.",
+      "Used firebase for authentication (both email and google sign-in were implemented) purposes and MongoDB as a backend database."
+    ],
+    "tags": [
+      "reactjs",
+      "tailwindcss",
+      "react-router-dom",
+      "firebase",
+      "react-splide",
+      "react-query",
+      "react-firebase-hooks"
+    ],
+    "liveUrl": "https://warehouse-management-ss.web.app/"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/hsSffSj/sunrise-clothing.jpg",
+    "title": "Sunrise Clothing",
+    "description": "It's an E-commerce Website for selling clothes where both men’s and women’s clothes are available.",
+    "features": [
+      "Cart system is implemented where users can add an item to their cart and later they can pay for it to confirm the order.",
+      "Payment system is implemented with stripe and for state management, the redux store is used.",
+      "Used firebase for both authentication (both email and google sign-in were implemented) and firestore database used as a backend database.",
+      "Moast of the components are presentational components, all the asynchrous data fetching are done with the help of the redux-saga package outside of the components.",
+      "The website is designed with the help of styled-components package."
+    ],
+    "tags": [
+      "reactjs",
+      "styled-components",
+      "react-router-dom",
+      "firebase",
+      "scss",
+      "redux",
+      "redux-saga",
+      "reselect"
+    ],
+    "liveUrl": "https://clthing-shop.herokuapp.com/"
+  }
+]

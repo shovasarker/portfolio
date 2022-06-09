@@ -7,7 +7,7 @@ const DeveloperName = () => {
       {firstName?.map((letter, i) => (
         <span
           key={i}
-          className='cursor-pointer inline-block text-4xl md:text-6xl md:leading-tight font-bold text-teal-500 hover:-translate-y-2 transition-all duration-200'
+          className='cursor-pointer inline-block text-4xl leading-snug md:text-6xl md:leading-tight font-bold text-teal-500 hover:-translate-y-2 transition-all duration-200'
         >
           {letter}
         </span>
@@ -15,7 +15,7 @@ const DeveloperName = () => {
       {lastName?.map((letter, i) => (
         <span
           key={i}
-          className='cursor-pointer inline-block  text-4xl md:text-6xl md:leading-tight font-bold text-teal-500 hover:-translate-y-2 transition-all duration-200'
+          className='cursor-pointer inline-block  text-4xl leading-snug md:text-6xl md:leading-tight font-bold text-teal-500 hover:-translate-y-2 transition-all duration-200'
         >
           {letter}
         </span>

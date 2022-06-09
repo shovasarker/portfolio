@@ -12,7 +12,7 @@ const Button = ({
   return (
     <button
       onClick={onClick}
-      className={`flex justify-center items-center gap-2 ${
+      className={`flex justify-center items-center gap-2 cursor-pointer ${
         small ? 'text-sm px-4 py-1' : 'text-base px-6 py-2'
       } rounded shadow-lg ${full ? 'w-full' : 'w-auto'} border ${
         outlined

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import MenuContext from '../../../../../contexts/MenuContext'
 import CustomLink from '../../../../standalone/CustomLink'
 
@@ -10,7 +11,7 @@ const links = [
 
 const hash = [
   ['#about', 'About Me'],
-  ['#contact', 'Contact Me'],
+  [`#contact`, 'Contact Me'],
 ]
 
 const Menu = () => {
@@ -31,14 +32,14 @@ const Menu = () => {
         </CustomLink>
       ))}
       {hash?.map(([to, value], i) => (
-        <Link
+        <HashLink
           key={i}
           to={to}
           onClick={closeMenu}
           className='uppercase text-white lg:text-gray-700 px-1 border-b-2 border-b-transparent hover:border-b-white lg:hover:border-b-gray-700 transition-all duration-300 text-3xl font-semibold  lg:text-base lg:font-medium'
         >
           {value}
-        </Link>
+        </HashLink>
       ))}
     </div>
   )
