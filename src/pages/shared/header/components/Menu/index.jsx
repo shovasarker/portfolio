@@ -14,7 +14,11 @@ const hash = [
 ]
 
 const Menu = () => {
-  const { menuOpen } = useContext(MenuContext)
+  const { menuOpen, setMenuOpen } = useContext(MenuContext)
+
+  const closeMenu = () => {
+    setMenuOpen(false)
+  }
   return (
     <div
       className={`absolute lg:static w-full lg:w-auto h-screen md:h-[450px] lg:h-auto bg-teal-200 lg:bg-transparent left-1/2 -translate-x-1/2 lg:translate-x-0 ${
@@ -22,7 +26,7 @@ const Menu = () => {
       } flex flex-col lg:flex-row  justify-center lg:justify-end items-center gap-8 lg:gap-5`}
     >
       {links?.map(([to, value], i) => (
-        <CustomLink key={i} to={to}>
+        <CustomLink key={i} to={to} onClick={closeMenu}>
           {value}
         </CustomLink>
       ))}
@@ -30,6 +34,7 @@ const Menu = () => {
         <Link
           key={i}
           to={to}
+          onClick={closeMenu}
           className='uppercase text-white lg:text-gray-700 px-1 border-b-2 border-b-transparent hover:border-b-white lg:hover:border-b-gray-700 transition-all duration-300 text-3xl font-semibold  lg:text-base lg:font-medium'
         >
           {value}

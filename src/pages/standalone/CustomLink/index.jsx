@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 
-const CustomLink = ({ to, children }) => {
+const CustomLink = ({ to, children, onClick }) => {
   const { pathname } = useResolvedPath(to)
   const match = useMatch({ path: pathname, end: true })
   return (
     <Link
       to={to}
+      onClick={onClick}
       className={`border-b-2 border-b-transparent px-1 uppercase tracking-wider ${
         match
           ? 'text-teal-500 hover:border-b-teal-500'
