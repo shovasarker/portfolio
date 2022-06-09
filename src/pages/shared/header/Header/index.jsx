@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 
 const Header = () => {
   return (
-    <header>
+    <header className='fixed w-full h-20 flex items-center'>
       <MenuProvider>
         <Navbar />
       </MenuProvider>

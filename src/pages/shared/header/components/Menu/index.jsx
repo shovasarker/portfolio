@@ -22,8 +22,8 @@ const Menu = () => {
   return (
     <div
       className={`absolute lg:static w-full lg:w-auto h-screen md:h-[450px] lg:h-auto bg-teal-200 lg:bg-transparent left-1/2 -translate-x-1/2 lg:translate-x-0 ${
-        menuOpen ? 'top-0' : '-top-full'
-      } flex flex-col lg:flex-row  justify-center lg:justify-end items-center gap-8 lg:gap-5`}
+        menuOpen ? 'top-0' : '-top-[1000px]'
+      } flex flex-col lg:flex-row  justify-center lg:justify-end items-center gap-8 lg:gap-5 transition-all duration-500`}
     >
       {links?.map(([to, value], i) => (
         <CustomLink key={i} to={to} onClick={closeMenu}>
