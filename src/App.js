@@ -1,19 +1,19 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/home/Home'
+import Header from './pages/shared/header/Header'
 
 function App() {
   return (
-    <div className='App'>
-      <a
-        className='text-gray-600'
-        href='https://drive.google.com/uc?export=download&id=1IytEuag6PwMjDYTgQ_455UJlype7qu9D'
-        target='_blank'
-        rel='noopener noreferrer'
-        download
-      >
-        Download Resume
-      </a>
-    </div>
+    <>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </>
   )
 }
+
+//https://drive.google.com/uc?export=download&id=1IytEuag6PwMjDYTgQ_455UJlype7qu9D
 
 export default App
