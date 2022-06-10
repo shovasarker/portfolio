@@ -5,11 +5,9 @@ const HomeProjects = () => {
   return (
     <section
       id='portfolio'
-      className='container px-6 md:px-10 lg:px-16 my-10 scroll-mt-28'
+      className='container px-6 md:px-10 lg:px-16 my-10 scroll-mt-28 '
     >
-      <h2 className='text-center text-2xl font-medium text-gray-800 my-10'>
-        My Projects
-      </h2>
+      <h2 className='section-title'>My Projects</h2>
       <ProjectsContainer />
     </section>
   )

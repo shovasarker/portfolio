@@ -6,4 +6,16 @@
   .project-card:hover .card-body {
     @apply flex;
   }
+
+  .about-section {
+    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+  }
+
+  /* .portfolio-section {
+    clip-path: polygon(100% 0, 100% 100%, 0% 90%, 0 0);
+  } */
+
+  .section-title {
+    @apply relative  text-3xl font-semibold text-teal-600 text-center my-10 py-1 after:absolute after:content-[''] after:w-20 after:h-1 after:bg-teal-600 after:top-full after:left-1/2 after:-translate-x-1/2 after:rounded-full;
+  }
 }
