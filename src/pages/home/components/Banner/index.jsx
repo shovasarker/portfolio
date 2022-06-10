@@ -11,9 +11,6 @@ const Banner = () => {
         <h1 className=' text-4xl leading-snug md:text-6xl font-medium md:leading-tight text-white'>
           Hello,
         </h1>
-        <h1 className='text-4xl leading-snug md:text-6xl font-medium md:leading-tight text-white'>
-          I'm
-        </h1>
         <DeveloperName />
         <h3 className='text-2xl leading-normal font-medium mt-2 text-white'>
           I'm a{' '}
