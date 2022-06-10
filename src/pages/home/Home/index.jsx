@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../shared/Footer'
 import Header from '../../shared/header/Header'
 import About from '../components/About'
 import Banner from '../components/Banner'
@@ -13,6 +14,7 @@ const Home = () => {
       <About />
       <HomeProjects />
       <Contact />
+      <Footer />
     </main>
   )
 }

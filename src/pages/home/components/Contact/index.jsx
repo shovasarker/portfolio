@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <section
-      className='container px-6 md:px-10 lg:px-16 scroll-mt-28'
+      className='container px-6 md:px-10 lg:px-16 scroll-mt-28 mt-20'
       id='contact'
     >
       <iframe
@@ -16,7 +16,7 @@ const Contact = () => {
         src='https://form.jotform.com/221594944946066'
         frameBorder='0'
         scrolling='no'
-        className='h-[1000px] min-w-full md:min-w-0 md:max-w-[450px] border-0 mx-auto'
+        className='h-[800px] w-full md:w-1/2 border-0 mx-auto'
       ></iframe>
     </section>
   )

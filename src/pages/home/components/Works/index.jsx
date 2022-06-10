@@ -8,21 +8,21 @@ import Work from '../Work'
 const works = [
   {
     icon: (
-      <MdOutlineWeb className='w-20 h-20 rounded-full bg-gray-200 p-4 text-teal-500' />
+      <MdOutlineWeb className='w-20 h-20 rounded-full bg-teal-50 p-4 text-teal-500' />
     ),
     name: 'Front End Website Design',
     description: 'I like developing front ends for websites',
   },
   {
     icon: (
-      <SiDynamics365 className='w-20 h-20 p-4 rounded-full bg-gray-200 text-teal-500' />
+      <SiDynamics365 className='w-20 h-20 p-4 rounded-full  bg-teal-50 text-teal-500' />
     ),
     name: 'Static and Dynamic Website Design',
     description: 'I can make both static and dynamic website.',
   },
   {
     icon: (
-      <DiResponsive className='w-20 h-20 p-2 rounded-full bg-gray-200 text-teal-500' />
+      <DiResponsive className='w-20 h-20 p-2 rounded-full  bg-teal-50 text-teal-500' />
     ),
     name: 'Responsive Website Design',
     description: 'All my mrojects are responsive for mobile, tablet and pc.',

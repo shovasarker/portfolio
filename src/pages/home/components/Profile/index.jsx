@@ -2,7 +2,6 @@ import React from 'react'
 import { GrReactjs } from 'react-icons/gr'
 import { SiTailwindcss } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
-import { BsFacebook, BsGithub, BsLinkedin } from 'react-icons/bs'
 
 import profilePic from '../../../../assets/images/shova-profile.png'
 import SocialLinks from '../../../standalone/SocialLinks'
@@ -32,7 +31,7 @@ const Profile = () => {
           Application. I also previously made static websites with HTML, CSS and
           JavaScript.
         </p>
-        <p className='mt-4'>I Work Best With</p>
+        <p className='mt-4 font-medium'>I Work Best With</p>
         <div className='flex justify-start items-center gap-4 mt-2'>
           <GrReactjs
             className='w-12 h-12 rounded shadow-lg bg-white text-teal-500 p-2'
@@ -48,7 +47,7 @@ const Profile = () => {
           />
         </div>
 
-        <p className='mt-4'>Follow Me on</p>
+        <p className='mt-4 font-medium'>Follow Me on</p>
         <SocialLinks />
       </div>
     </div>

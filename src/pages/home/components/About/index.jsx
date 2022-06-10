@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id='about'
-      className='about-section scroll-mt-28 my-20 py-20 bg-gray-100'
+      className='about-section scroll-mt-28 my-20 py-28 md:py-24 lg:py-32 bg-gray-100'
     >
       <div className='container px-6 md:px-10 lg:px-16'>
         <h2 className='section-title'>About Me</h2>
