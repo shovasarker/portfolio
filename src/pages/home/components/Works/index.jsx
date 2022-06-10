@@ -15,14 +15,14 @@ const works = [
   },
   {
     icon: (
-      <SiDynamics365 className='w-20 h-20 p-4 rounded-full  bg-teal-50 text-teal-500' />
+      <SiDynamics365 className='w-20 h-20 p-4 rounded-full bg-teal-50 text-teal-500' />
     ),
     name: 'Static and Dynamic Website Design',
     description: 'I can make both static and dynamic website.',
   },
   {
     icon: (
-      <DiResponsive className='w-20 h-20 p-2 rounded-full  bg-teal-50 text-teal-500' />
+      <DiResponsive className='w-20 h-20 p-2 rounded-full bg-teal-50 text-teal-500' />
     ),
     name: 'Responsive Website Design',
     description: 'All my mrojects are responsive for mobile, tablet and pc.',
@@ -31,11 +31,9 @@ const works = [
 
 const Works = () => {
   return (
-    <div>
-      <h2 className='text-3xl text-center text-gray-700 font-semibold'>
-        What I Do
-      </h2>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10'>
+    <div className='my-20'>
+      <h2 className='section-title'>What I Do</h2>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-10 my-10'>
         {works?.map((work, i) => (
           <Work key={i} work={work} />
         ))}
