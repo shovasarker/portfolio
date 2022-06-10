@@ -2,6 +2,7 @@ import React from 'react'
 import { GrReactjs } from 'react-icons/gr'
 import { SiTailwindcss } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
+import Typewriter from 'typewriter-effect'
 
 import profilePic from '../../../../assets/images/shova-profile.png'
 import SocialLinks from '../../../standalone/SocialLinks'
@@ -23,7 +24,17 @@ const Profile = () => {
           Shova Sarker
         </h2>
         <h3 className='text-xl xl:text-2xl font-semibold text-teal-700 tracking-wide mt-2'>
-          Front End Developer | React JS Developer
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString('Front End Developer')
+                .pauseFor(1500)
+                .deleteChars(19)
+                .typeString('React JS Developer')
+                .start()
+            }}
+            options={{ loop: true }}
+          />
         </h3>
         <p className='mt-3 tracking-wide'>
           I Work with React JS, Expess JS and MongoDB to Make Full Stack

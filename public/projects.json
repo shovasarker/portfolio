@@ -20,7 +20,16 @@
       "react-query",
       "react-firebase-hooks"
     ],
-    "liveUrl": "https://abacus-parts.web.app/"
+    "liveUrl": "https://abacus-parts.web.app/",
+    "screenShots": [
+      "https://i.ibb.co/hHFz446/abacus-parts.jpg",
+      "https://i.ibb.co/Rb7MK9W/abacus-parts-manage-parts.png",
+      "https://i.ibb.co/sK02Zbf/abacus-parts-page.png",
+      "https://i.ibb.co/wMypsn4/abacus-parts-profile.png",
+      "https://i.ibb.co/Wxy6qTS/abacus-parts-manage-orders.png"
+    ],
+    "clientRepo": "https://github.com/shovasarker/manufacturer-website-client",
+    "serverRepo": "https://github.com/shovasarker/manufacturer-website-server"
   },
   {
     "id": 2,
@@ -41,7 +50,16 @@
       "react-query",
       "react-firebase-hooks"
     ],
-    "liveUrl": "https://warehouse-management-ss.web.app/"
+    "liveUrl": "https://warehouse-management-ss.web.app/",
+    "screenShots": [
+      "https://i.ibb.co/LhFdWpF/skyline-enterprise.jpg",
+      "https://i.ibb.co/Rb7MK9W/abacus-parts-manage-parts.png",
+      "https://i.ibb.co/sK02Zbf/abacus-parts-page.png",
+      "https://i.ibb.co/wMypsn4/abacus-parts-profile.png",
+      "https://i.ibb.co/Wxy6qTS/abacus-parts-manage-orders.png"
+    ],
+    "clientRepo": "https://github.com/shovasarker/warehouse-management-client",
+    "serverRepo": "https://github.com/shovasarker/warehouse-management-server"
   },
   {
     "id": 3,
@@ -65,6 +83,14 @@
       "redux-saga",
       "reselect"
     ],
-    "liveUrl": "https://clthing-shop.herokuapp.com/"
+    "liveUrl": "https://clthing-shop.herokuapp.com/",
+    "screenShots": [
+      "https://i.ibb.co/hsSffSj/sunrise-clothing.jpg",
+      "https://i.ibb.co/Rb7MK9W/abacus-parts-manage-parts.png",
+      "https://i.ibb.co/sK02Zbf/abacus-parts-page.png",
+      "https://i.ibb.co/wMypsn4/abacus-parts-profile.png",
+      "https://i.ibb.co/Wxy6qTS/abacus-parts-manage-orders.png"
+    ],
+    "clientRepo": "https://github.com/shovasarker/personal-clothing-shop"
   }
 ]

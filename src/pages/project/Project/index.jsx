@@ -8,7 +8,7 @@ import ProjectDetails from '../components/ProjectDetails'
 const Project = () => {
   const { projectName } = useParams()
   const [projects, loading] = useProjects()
-  const [project, setProject] = useState()
+  const [project, setProject] = useState({})
 
   useEffect(() => {
     if (projects?.length < 1) return

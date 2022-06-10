@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
+import Typewriter from 'typewriter-effect'
 
 import Button from '../../../standalone/Button'
 import DeveloperName from '../DeveloperName'
@@ -14,9 +15,22 @@ const Banner = () => {
         <DeveloperName />
         <h3 className='text-2xl leading-normal font-medium mt-2 text-white'>
           I'm a{' '}
-          <span className='text-teal-600'>
+          <div className='text-teal-700 font-medium inline-block'>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString('Front End Developer')
+                  .pauseFor(1500)
+                  .deleteChars(19)
+                  .typeString('React JS Developer')
+                  .start()
+              }}
+              options={{ loop: true }}
+            />
+          </div>
+          {/* <span className='text-teal-600'>
             Front End Developer | React JS Developer
-          </span>
+          </span> */}
         </h3>
         <a
           href='https://drive.google.com/uc?export=download&id=1IytEuag6PwMjDYTgQ_455UJlype7qu9D'

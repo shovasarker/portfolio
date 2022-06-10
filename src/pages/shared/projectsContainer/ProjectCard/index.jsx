@@ -26,7 +26,7 @@ const ProjectCard = ({ project }) => {
             ?.map((tag, i) => (
               <span
                 key={i}
-                className='inline-block px-2 border border-gray-600 text-gray-700 rounded'
+                className='inline-block py-1 px-4 border border-gray-600 text-gray-800 rounded text-sm'
               >
                 {tag}
               </span>
