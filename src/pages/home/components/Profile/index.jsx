@@ -47,7 +47,7 @@ const Profile = () => {
           />
         </div>
 
-        <p className='mt-4 font-medium'>Follow Me on</p>
+        <p className='mt-4 font-medium'>Find Me on</p>
         <SocialLinks />
       </div>
     </div>
