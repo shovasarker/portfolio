@@ -6,7 +6,7 @@ import DeveloperName from '../DeveloperName'
 
 const Banner = () => {
   return (
-    <section className='relative h-screen pt-20 flex items-center bg-gray-800'>
+    <section className='relative h-screen flex items-center bg-gray-800'>
       <div className='container px-6 md:px-10 lg:px-16 font-poppins'>
         <h1 className=' text-4xl leading-snug md:text-6xl font-medium md:leading-tight text-white'>
           Hello,
