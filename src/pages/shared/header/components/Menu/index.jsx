@@ -1,9 +1,13 @@
 import React, { useContext } from 'react'
+import { useLocation } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import MenuContext from '../../../../../contexts/MenuContext'
 import CustomLink from '../../../../standalone/CustomLink'
 
-const links = ['/', 'Home']
+const links = [
+  ['/', 'Home'],
+  ['/blogs', 'Blogs'],
+]
 
 const hash = [
   ['#about', 'About Me'],
@@ -13,6 +17,7 @@ const hash = [
 
 const Menu = () => {
   const { menuOpen, setMenuOpen } = useContext(MenuContext)
+  const { pathname } = useLocation()
 
   const closeMenu = () => {
     setMenuOpen(false)
@@ -23,19 +28,23 @@ const Menu = () => {
         menuOpen ? 'top-0' : '-top-[3000px]'
       } flex flex-col lg:flex-row  justify-center lg:justify-end items-center gap-8 lg:gap-5 transition-all duration-500`}
     >
-      <CustomLink to={links[0]} onClick={closeMenu}>
-        {links[1]}
-      </CustomLink>
-      {hash?.map(([to, value], i) => (
-        <HashLink
-          key={i}
-          to={to}
-          onClick={closeMenu}
-          className='uppercase text-white px-1 border-b-2 border-b-transparent hover:border-b-white transition-all duration-300 text-3xl font-semibold  lg:text-base lg:font-medium'
-        >
+      {links?.map(([to, value], i) => (
+        <CustomLink key={i} to={to} onClick={closeMenu}>
           {value}
-        </HashLink>
+        </CustomLink>
       ))}
+
+      {pathname === '/' &&
+        hash?.map(([to, value], i) => (
+          <HashLink
+            key={i}
+            to={to}
+            onClick={closeMenu}
+            className='uppercase text-white px-1 border-b-2 border-b-transparent hover:border-b-white transition-all duration-300 text-3xl font-semibold  lg:text-base lg:font-medium'
+          >
+            {value}
+          </HashLink>
+        ))}
     </div>
   )
 }
