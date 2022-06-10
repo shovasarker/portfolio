@@ -16,7 +16,10 @@ const Banner = () => {
         </h1>
         <DeveloperName />
         <h3 className='text-2xl leading-normal font-medium mt-2 text-white'>
-          I'm a Front End Web Developer | React JS Developer
+          I'm a{' '}
+          <span className='text-teal-600'>
+            Front End Developer | React JS Developer
+          </span>
         </h3>
         <a
           href='https://drive.google.com/uc?export=download&id=1IytEuag6PwMjDYTgQ_455UJlype7qu9D'
