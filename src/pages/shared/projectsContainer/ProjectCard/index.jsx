@@ -1,10 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { GiArrowWings } from 'react-icons/gi'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 
 import Button from '../../../standalone/Button'
 
 const ProjectCard = ({ project }) => {
+  const navigate = useNavigate()
   const { img, title, description, tags, liveUrl } = project
   return (
     <div className='rounded shadow-2xl relative overflow-hidden h-[450px] project-card border border-gray-200'>
@@ -36,7 +38,7 @@ const ProjectCard = ({ project }) => {
             <GiArrowWings className='w-5 h-5' />
           </Button>
         </a>
-        <Button outlined>
+        <Button outlined onClick={() => navigate(`/project/${title}`)}>
           <>Learn More</>
           <BsBoxArrowUpRight className='w-5 h-5' />
         </Button>
