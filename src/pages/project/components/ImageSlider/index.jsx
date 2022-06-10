@@ -23,6 +23,7 @@ const ImageSlider = ({ screenShots }) => {
     arrows: false,
     drag: true,
     snap: true,
+    autoplay: true,
     mediaQuery: 'min',
     breakpoints: {
       height: '30rem',

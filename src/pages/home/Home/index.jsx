@@ -1,4 +1,5 @@
 import React from 'react'
+import { TagProvider } from '../../../contexts/TagContext'
 import Footer from '../../shared/Footer'
 import Header from '../../shared/header/Header'
 import About from '../components/About'
@@ -12,7 +13,9 @@ const Home = () => {
       <Banner />
       <Header />
       <About />
-      <HomeProjects />
+      <TagProvider>
+        <HomeProjects />
+      </TagProvider>
       <Contact />
       <Footer />
     </main>

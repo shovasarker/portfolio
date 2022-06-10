@@ -53,10 +53,9 @@
     "liveUrl": "https://warehouse-management-ss.web.app/",
     "screenShots": [
       "https://i.ibb.co/LhFdWpF/skyline-enterprise.jpg",
-      "https://i.ibb.co/Rb7MK9W/abacus-parts-manage-parts.png",
-      "https://i.ibb.co/sK02Zbf/abacus-parts-page.png",
-      "https://i.ibb.co/wMypsn4/abacus-parts-profile.png",
-      "https://i.ibb.co/Wxy6qTS/abacus-parts-manage-orders.png"
+      "https://i.ibb.co/hRcsK3P/skyline-enterprise-add-item.png",
+      "https://i.ibb.co/grGqy3Z/skyline-enterprise-productsj.jpg",
+      "https://i.ibb.co/1zKpBc6/skyline-enterprise-update.png"
     ],
     "clientRepo": "https://github.com/shovasarker/warehouse-management-client",
     "serverRepo": "https://github.com/shovasarker/warehouse-management-server"
@@ -86,10 +85,8 @@
     "liveUrl": "https://clthing-shop.herokuapp.com/",
     "screenShots": [
       "https://i.ibb.co/hsSffSj/sunrise-clothing.jpg",
-      "https://i.ibb.co/Rb7MK9W/abacus-parts-manage-parts.png",
-      "https://i.ibb.co/sK02Zbf/abacus-parts-page.png",
-      "https://i.ibb.co/wMypsn4/abacus-parts-profile.png",
-      "https://i.ibb.co/Wxy6qTS/abacus-parts-manage-orders.png"
+      "https://i.ibb.co/5RsSqrf/sunrise-clothing-checkout.png",
+      "https://i.ibb.co/TvVtMcQ/sunrise-clothing-home.png"
     ],
     "clientRepo": "https://github.com/shovasarker/personal-clothing-shop"
   }
