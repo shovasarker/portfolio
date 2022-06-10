@@ -2,7 +2,10 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='container px-6 md:px-10 lg:px-16' id='contact'>
+    <section
+      className='container px-6 md:px-10 lg:px-16 scroll-mt-28'
+      id='contact'
+    >
       <iframe
         id='JotFormIFrame-221594944946066'
         title='Contact Me'

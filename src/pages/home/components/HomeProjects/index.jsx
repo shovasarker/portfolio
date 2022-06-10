@@ -3,7 +3,10 @@ import ProjectsContainer from '../../../shared/projectsContainer/ProjectsContain
 
 const HomeProjects = () => {
   return (
-    <section className='container px-6 md:px-10 lg:px-16 my-10'>
+    <section
+      id='portfolio'
+      className='container px-6 md:px-10 lg:px-16 my-10 scroll-mt-28'
+    >
       <h2 className='text-center text-2xl font-medium text-gray-800 my-10'>
         My Projects
       </h2>

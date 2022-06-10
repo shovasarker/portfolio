@@ -6,7 +6,6 @@ import Header from './pages/shared/header/Header'
 function App() {
   return (
     <>
-      <Header />
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
