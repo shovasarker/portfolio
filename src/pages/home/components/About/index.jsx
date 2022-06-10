@@ -1,4 +1,5 @@
 import React from 'react'
+import Profile from '../Profile'
 import Skills from '../Skills'
 import Works from '../Works'
 
@@ -10,6 +11,7 @@ const About = () => {
     >
       <div className='container px-6 md:px-10 lg:px-16'>
         <h2 className='section-title'>About Me</h2>
+        <Profile />
         <Works />
         <Skills />
       </div>

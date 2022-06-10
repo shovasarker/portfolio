@@ -8,7 +8,7 @@
   }
 
   .about-section {
-    clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+    clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 5%);
   }
 
   /* .portfolio-section {
@@ -17,5 +17,24 @@
 
   .section-title {
     @apply relative  text-3xl font-semibold text-teal-600 text-center my-10 py-1 after:absolute after:content-[''] after:w-20 after:h-1 after:bg-teal-600 after:top-full after:left-1/2 after:-translate-x-1/2 after:rounded-full;
+  }
+
+  .mask-octagon {
+    clip-path: polygon(
+      30% 0%,
+      70% 0%,
+      100% 30%,
+      100% 70%,
+      70% 100%,
+      30% 100%,
+      0% 70%,
+      0% 30%
+    );
+  }
+
+  @media (min-width: 1024px) {
+    .about-section {
+      clip-path: polygon(100% 0, 100% 90%, 0 100%, 0 10%);
+    }
   }
 }
