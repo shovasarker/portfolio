@@ -37,6 +37,10 @@ const Profile = () => {
           />
         </h3>
         <p className='mt-3 tracking-wide'>
+          I'm a simple person who enjoys developing static or dynamic websites.
+          My hobby is to play games on either mobile or pc to pass times.
+        </p>
+        <p className='mt-3 tracking-wide'>
           I Work with React JS, Expess JS and MongoDB to Make Full Stack
           Application but I mainly Work with React JS to make Front End
           Application. I also previously made static websites with HTML, CSS and
